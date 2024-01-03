@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-
+#Gemini API key
 genai.configure(api_key="AIzaSyDWflxCyU3_pSzXjW-k91I9G6mvzUQ2q2U")
 
 st.set_page_config(layout="wide")
