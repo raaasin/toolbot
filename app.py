@@ -4,7 +4,6 @@ genai.configure(api_key="AIzaSyDWflxCyU3_pSzXjW-k91I9G6mvzUQ2q2U")
 
 st.set_page_config(layout="wide")
 st.title("Tool Recommendation Tool")
-
 tool_type = st.sidebar.selectbox("Select Tool Type", ("Drill", "Saw", "Grinder", "Other"))
 
 if tool_type == "Drill":
