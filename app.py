@@ -5,7 +5,7 @@ genai.configure(api_key="AIzaSyDWflxCyU3_pSzXjW-k91I9G6mvzUQ2q2U")
 
 st.set_page_config(layout="wide")
 st.title("CNC Machine Recommendation Tool")
-
+#machine types def
 cnc_machine_type = st.sidebar.selectbox("Select CNC Machine Type", (
     "Mill",
     "Lathe",
