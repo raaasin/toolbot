@@ -121,7 +121,7 @@ if submit_button:
 
     st.write(f"**Based on your needs, here are some recommended {machine_text}s:**")
 
-    message = f"Provide a {machine_text.lower()} for this Material: {material}\nBudget: ${budget}"  
+    message = f"Provide a CNC {machine_text.lower()} for this Material: {material}\nBudget: ${budget}"  
 
     answer = get_message(message)  
 
